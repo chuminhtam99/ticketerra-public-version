@@ -1,0 +1,11 @@
+# ticketerra-nodejs-microservice
+
+- Designed and implemented a distributed NodeJS microservice website, enabling users to browse, manage events and book tickets for concerts, workshops, and travel events.
+- Focused on scalability, reliability and performance, guarantee efficient user experience, when handling high request throughput.
+- Implemented database transactions and row-level exclusive lock to guarantee ACID properties, allowing a safe concurrent seat booking and preventing overbooking during peak load. Learned some database optimizations such as indexing, query optimization, designed for normalization in MySQL, while using NoSQL database for scaling and management in other services.
+- Applied JWT‐based authentication to provide secure, stateless user sessions across microservices.
+- Learned to design a secure, avoiding-deadlock booking/payment workflows, integrated automated payment and email confirmations using third-party services like Stripe and NodeMailer.
+- Applied real-time communication protocol like SocketWeb for real‐time seat availability tracking.
+- Restricted requests to database server by integrating Redis for caching, creating idempotency keys for idempotent process, using Rate Limiter for DDoS defense.
+- Used RabbitMQ for asynchronous communication and reliable message delivery, configuring to use dead letter queue for monitoring.
+- Deployed at : (updated)
