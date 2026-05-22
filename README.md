@@ -9,4 +9,5 @@
 - Restricted requests to database server by integrating Redis for caching, creating idempotency keys for idempotent process, using Rate Limiter for DDoS defense.
 - Used RabbitMQ for asynchronous communication and reliable message delivery, configuring to use dead letter queue for monitoring.
 - Deployed at : https://e866-171-241-16-230.ngrok-free.app/
+- NOTE: if the website did not show any tickets in your devices, please enable the server first in : https://2076-171-241-16-230.ngrok-free.app/v1/events/recommend
 - Time deployed: 22/05/2026
