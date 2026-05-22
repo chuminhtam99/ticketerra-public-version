@@ -8,4 +8,5 @@
 - Applied real-time communication protocol like SocketWeb for real‐time seat availability tracking.
 - Restricted requests to database server by integrating Redis for caching, creating idempotency keys for idempotent process, using Rate Limiter for DDoS defense.
 - Used RabbitMQ for asynchronous communication and reliable message delivery, configuring to use dead letter queue for monitoring.
-- Deployed at : (updated)
+- Deployed at : https://e866-171-241-16-230.ngrok-free.app/
+- Time deployed: 22/05/2026
