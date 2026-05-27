@@ -1,5 +1,5 @@
 # ticketerra-nodejs-microservice
-
+- Cloned the booking websites: https://ticketbox.vn/
 - Designed and implemented a distributed NodeJS microservice website, enabling users to browse, manage events and book tickets for concerts, workshops, and travel events.
 - Focused on scalability, reliability and performance, guarantee efficient user experience, when handling high request throughput.
 - Implemented database transactions and row-level exclusive lock to guarantee ACID properties, allowing a safe concurrent seat booking and preventing overbooking during peak load. Learned some database optimizations such as indexing, query optimization, designed for normalization in MySQL, while using NoSQL database for scaling and management in other services.
@@ -8,6 +8,6 @@
 - Applied real-time communication protocol like SocketWeb for real‐time seat availability tracking.
 - Restricted requests to database server by integrating Redis for caching, creating idempotency keys for idempotent process, using Rate Limiter for DDoS defense.
 - Used RabbitMQ for asynchronous communication and reliable message delivery, configuring to use dead letter queue for monitoring.
-- Deployed at : https://e2e1-171-241-16-230.ngrok-free.app
-- NOTE: if the website did not show any tickets in your devices, please enable the server first in : https://3208-171-241-16-230.ngrok-free.app/v1/events/recommend
-- Time deployed: 25/05/2026
+- Deployed at : https://656e-171-241-16-230.ngrok-free.app/
+- NOTE: if the website did not show any tickets in your devices, please enable the server first in : https://9915-171-241-16-230.ngrok-free.app/v1/events/recommend
+- Time deployed: 27/05/2026
