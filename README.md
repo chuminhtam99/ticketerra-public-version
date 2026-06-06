@@ -10,6 +10,6 @@
 - Caching for better performance: Restricted requests to database server by integrating Redis for caching, creating idempotency keys for idempotent process, using Rate Limiter for DDoS defense.
 - Used RabbitMQ for asynchronous communication and reliable message delivery, configuring to use dead letter queue for monitoring.
 - Made a crawler to crawl data from original websites, run each day, and save to database.
-- Deployed at : https://ed56-171-241-16-230.ngrok-free.app/
-- NOTE: if the website did not show any tickets in your devices, please enable the server first in : https://1999-171-241-16-230.ngrok-free.app/v1/events/recommend
-- Time deployed: 29/05/2026
+- Deployed at : https://3684-171-241-29-90.ngrok-free.app
+- NOTE: if the website did not show any tickets in your devices, please enable the server first in : https://949a-171-241-29-90.ngrok-free.app/v1/events/recommend
+- Time deployed: 06/06/2026
